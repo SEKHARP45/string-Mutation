@@ -1,6 +1,6 @@
 
-@author: SEKHAR
-"""
+# author: SEKHAR
+
 # HackerRank prractice question on STRING MUTATION
 def mutate_string(string, position, character):
     l=list(string) # Converting string into list form
