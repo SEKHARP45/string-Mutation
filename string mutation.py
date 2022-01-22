@@ -3,9 +3,9 @@
 """
 # HackerRank prractice question on STRING MUTATION
 def mutate_string(string, position, character):
-    l=list(string)
+    l=list(string) # Converting string into list form
     l[position]=character
-    modified_string="".join(l)
+    modified_string="".join(l) #rejoin after modification
     return modified_string
 
 if __name__ == '__main__':
